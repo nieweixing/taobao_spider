@@ -36,11 +36,11 @@ class TaoBaoLogin:
         self.my_taobao_url = 'http://i.taobao.com/my_taobao.htm'
 
         # 淘宝用户名
-        self.username = ''
+        self.username = '357815270@qq.com'
         # 淘宝重要参数，从浏览器或抓包工具中复制，可重复使用
-        self.ua = '120#bX1bSEvjRMp2ze/4jvYZMs/fbcomv9OI3Z7HiwbBdwWe5C9weI+bNAODPeK7mAeX74EwzlBOp79GXyKATeKcH+75j64avOVN+mTcF2I59mFf5dA2vLLFVoFN/YwwDHtkmlIDnhIwRNBOWCSF2P+ELE+DfWY2DSWnbD0BdSzH2eb9ifkk/woTLHo04BUZww5HlHCfbcsYsJfeekLliXIXSERUyn+medmJbccH0zTz7+4upEgVj2eDUH7NwCY5C2eozwi7gMqBjbAGHsN9vh/roEcPbE/ejUMPEIhSO5O3E/h5y12b7UHgWMfbLvv2VlMPDC0Zv5HHyB8/yvYS7U4RNWt/EDht7CoRyEuSb5htujPMybYb75UyNPc8CoYyMbgcVOKib1G74JiugnfIv/0j8aFMqOvxt9oioQpO6FjFXN9n40fS/WCFEEXLqD+sb/1VBb0aIxpmaKnIkALWg5PbFYSSBX2K+1tc07NOiWG6jjuzl6P7/QiNidfvmALZ+aR/LwuURI9PJWGV3ssr+U2Mtpw48o3JARdyZwAEzwrUrc4Vuz6aCYMQ8uPDSgja1tpLtbv7WULp3L3U7ymExWRqZ9Ghr0drjSupU7WqtWU+2LTvq1mphGnKHUFLN7EA4333WL6ufy9j5A0kIt1dNO7QzncwUpeUKmk2ElvvzjY+V2C6G0bKFE9QAcPa8oeLXZ/69DN10q8/hWX5BHmaM8acZ20kxRJlAypphFaR6UJ/8Nf3ldkUJVURw2fUa08hVSb0O6x6Ya2Jmxtg+VlZ3jxSK2lajQJgrGvsiXHejhaiC3Wb+gPoo/lZLRXH3bp/XkW4dFoqAy3vFCXLAFHuphEZ0YQVyjfJd43pZJe/Ead7F3QDsSILQRCN5qBKXcI5CWFZjvDZLDJQAfy+eOqB4Ebrmu2HYondSHTUFE6ihDoQlJzzUPZNDJU/YF/tYU8HLZFrMb5pP5XaBFTAgLbfOBtFLVJuZgmZYJwjK7Ybe6qWbSTld9TPaGyWhS+1hXud1iiquzDPxQ8AyMBGp179yPvwyNmp3jJH6sH6/Ug4i2nRFBnMkEHwHMyug1+YfnCqx/R1bnS5OJLOQUHD6hiySAkEg8p6ctwjPtkZnaHLPSBpQKh/I9dB6Vr84/fLI2O3le1se/DA6drRuZKE6s2lTYX3pRz+ZIYrpjKCCkIwKvcMUwJ6QLvG8LFjmA3/B+QI5Mrf6LEq3KZBB344KceXdzekSnno+XQ0lr7ZSVzSP5S/t/tb1PUb+ThSyg0GAORLEky4dGYsBxUtWuqThI9XDocYFxJhfW0zLF1WeIHQ7TnDx0EY0QE2VzfDkvO2ZEN/6i5IsBaMtmBDWGEceNktMG4w5hkITuTKt2fIJqHcc8qbNGFjJXxhCq1MvyFInY//asgUSqcpTSJ3q30E6P0HfnMSq2qx4dbBjsf82WJhA8OvjYmkNA9mM6COw0uL2ViR1vgYMFoB3vJXBvp4jeF4QU35ICEaxo+hT4LiEplhwRbPF2A0QWu+i7WoVABGta1u01e3JWiVr871aQ9JCw+pgTOU+EBUceLR7whdC9FFXXIcWuNoqAwib5BbTN3q34EvPbJ6Zx2wD9NsUTHuHqz78/voSKfkzH61Ba56L9eeXuzxNKGg8gLPk5AUdSIBLZejsRwg2lsZh6rdiEUtgbuBb/JscO//vVi/WkmrB424s+SlfJxnFYRiR8qiZi1+yY3HBuLFOYktMxhN7u0P8TPUT8UGQr4WPi8a+3qrIk4oOgFd+IY3d7DnFQtbeJ7lMyrMnvfWgEuuZnMhSAPEtyfu6sypunUH5ouwCcB+AJ0VRgG63ewKh7juRT2jOb89YqhGJ92n4RwMr8RSaBrol9nAvSUVAXZHZQkUBum32YAsTXaDDX1lKT3ATcQc'
+        self.ua = '122#3QDTFJ9NEEasZDpZMEpyEJponDJE7SNEEP7rEJ+/UmOi/BQLpo7iEDpWnDEeK51HpyGZp9hBuDEEJFOPpC76EJponDJL7gNpEPXZpJRgu4Ep+FQLpoGUEJLWn4yP7SQEEyuLpERmVyX/prZCnaRx9kb/ByaYeM8/bTXKMsRJ8vW6aIYo4bhU8KODpVRK6Zop1sNMHETpbg98o0It+shFkzboIC+N920f9u0Da1JScM+FnhAias8Tp672lFffmw3jbouKFyLDO8Epsk7DqMfpyUCBBM2x4ljEELXA1+UjA8p+TF3D7W3bEEpxngR4eNu0Lv3r8Cp6+DPEyFfOefMOwzVanSbWuO5EELGA8oL6JNEEyBfDqMfbDEpCnSL1ul0EDLVr8CpUJzbEyF3mqW32E5pamMp1uOZWELXr8ytkalYEmtWQ77BHp5afpuKfNEftM0+L3TVgydr3VUzozUPvF92Ig78PZ20VhqTe9B92ZHQo+tIZStPlPgvesz3g+bID9l/KGokpUUOTNDaO8heFIhaKQL16lKbw+E5E8fq3+0yZrIm8uh9whXCnhnd2UaJzDdAE2XB8jYsY18CziTTwOpTA4kGpqkjh88+il1jX3/QnsCBX+FpZHt3qNrsZYXIXOFdt0XQ2bnIFt4umep+sO1vKeo7EDHgSK+1n9QJpEnlMHPTM6Ur0xaUKda2WjKh5V3zizh8sdZOPO4es1Wf0zntkRxpvqn+V2/S1BNcYJ/aCIfsYY3/OoubTIh4ArEMOIEcLcVhInermJCGnZ/LJO8zmmJbNQ83PSPffEq3oThfqVaHcYt3XTjQbntW1Yjf52QbIyQ52tsDysX/LMTKXAidIFzBMvKYrbvEo2l5opM0cIefTiFLa1e9MWb1u52kRhYL5nk7S7QBzY/lCgu1RmNmKFk0wpSFTpVr2qCfJ4D6pimnl/pvki/mZ9i0+DCs/dVF6oU7iIwcXut52a7DndCMc/vIB5P4lWuhAbcAccBG0eFkoIV++CwAtElAOOHRAMW4IWkV2liKf9gvf/G7hkoR1t1oQ8HA7kEEW65jRXe/uCNTNXSg/v7QdkRrZlNtBcDv9EDFChzq9OhLDs58d14V5B1WSiZZQg+HxPfWxkUOKGSP0YToeJ3nkn1m1WmXuPTkkk/knS5wNc24KiHZI8FE8dY9+PkStVPSoH9fC0jF6C93EgNMFmF51dnT5KgkSRzLeDomCUunfvVJ6YtcOSJlz0SamzJqbityFyFfe9bRd029j4ALZR77tTwPlXoE3wKl2RyzkSRnF5C6Ozf9XXZ9LBEBfvr5z/yToUgCs4EMB9vWuTArnoXroxYSCbcP6rhFCg4=='
         # 加密后的密码，从浏览器或抓包工具中复制，可重复使用
-        self.TPL_password2 = '48b989ba5227430fde9317aab6d9f01c751b70ab66f716b205277add6d34e5d59386af23b970c76a3a95a7c42ff6e38b53d9c6b62c4cb94ad65db52b0733f5ef1e5682385daf204057f989b59c694ecd8912d6912696f2f94a63e9457b32b4c462afab6e503853c54a7fab236728404f52dd87c93e8de60ee0086789a1b1710e'
+        self.TPL_password2 = '417ebf998f84ff1f521ecff0a7f57f4046648e0babdced7b210e1caa8b5b9bfd1dd205d2cca2f7b392a76516adab806d2242c7b134e2725339e84dd767ec4ec2dbd127e87ae82dd442bc0b6c23614373c15cf57454e70a853a8c7ee3dc35e4f9545b7dd61c0439c13dee096a8e9524168c098a957935e5d9485f2b1b8f2b3235'
 
         # 请求超时时间
         self.timeout = 3
@@ -86,13 +86,13 @@ class TaoBaoLogin:
         # 登录toabao.com提交的数据，如果登录失败，可以从浏览器复制你的form data
         verify_password_data = {
             'TPL_username': self.username,
-            'ncoToken': '78401cd0eb1602fc1bbf9b423a57e91953e735a5',
+            'ncoToken': 'c58c6cc8f2796e52dfcf17d6035c553fd6300b78',
             'slideCodeShow': 'false',
             'useMobile': 'false',
             'lang': 'zh_CN',
             'loginsite': 0,
             'newlogin': 0,
-            'TPL_redirect_url': 'https://s.taobao.com/search?q=%E9%80%9F%E5%BA%A6%E9%80%9F%E5%BA%A6&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306',
+            'TPL_redirect_url': 'https://www.taobao.com/?spm=a1z02.1.1581860521.1.2bce782dMWa3fp',
             'from': 'tb',
             'fc': 'default',
             'style': 'default',
@@ -114,7 +114,7 @@ class TaoBaoLogin:
             'osAV': '5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
             'osPF': 'MacIntel',
             'appkey': '00000000',
-            'mobileLoginLink': 'https://login.taobao.com/member/login.jhtml?redirectURL=https://s.taobao.com/search?q=%E9%80%9F%E5%BA%A6%E9%80%9F%E5%BA%A6&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.2017.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170306&useMobile=true',
+            'mobileLoginLink': 'https://login.taobao.com/member/login.jhtml?redirectURL=https://www.taobao.com/?spm=a1z02.1.1581860521.1.2bce782dMWa3fp&useMobile=true',
             'showAssistantLink': '',
             'um_token': 'TD0789BC99BFBBF893B3C8C0E1729CCA3CB0469EA11FF6D196BA826C8EB',
             'ua': self.ua
